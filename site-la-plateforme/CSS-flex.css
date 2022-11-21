@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+
+:root {
+    --violet: #16118D  
+
+}
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif ;
+    color: white;
+
+}
+
+header { 
+    background: linear-gradient(#ef0404  ,#cb440e,orange  );
+}
+
+header nav {
+    padding: 30px 5% 0 5% ;
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav h1 { 
+    margin: 0;
+    color: var(--violet);
+}
+
+header nav .right {
+    display: flex;
+    align-items: center;   
+}
+
+header nav .right p {
+    margin: 0 15px 0 0 ;
+    color: #blanc;
+    cursor: pointer;
+}
+
+header nav .right p:hover {
+    color: var(--violet);
+}
+
+.photos differents Cursus {
+    padding: 30px 5%;
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.presentation .presentation
